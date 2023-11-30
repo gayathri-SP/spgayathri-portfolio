@@ -1,0 +1,220 @@
+@media screen and (max-width:1440px) {
+    section {
+        padding: 20px 80px;
+    }
+    .home-heading {
+        margin: 11rem 0px 0px 153px;
+    }
+    .home-heading h2{
+        font-size: 51px;
+        line-height: 63px;
+    }
+    .show-more img {
+        width: 50px;
+    }
+    .about-us {
+        padding: 60px 80px;
+    }
+    .abt-img img {
+        width: 609px;
+    }
+    .abt-text p {
+        font-size: 21px;
+        width: 521px;
+    }
+    .skill {
+        padding: 20px 80px 80px;
+    }
+    .skills-detail h4, span{
+        font-size: 20px;
+    }
+    .contact-sec {
+        padding: 20px 80px;
+    }
+    .contact-detail {
+        width: 737px;
+    }
+}
+@media screen and (max-width:1200px) {
+    section {
+        padding: 20px 50px;
+    }
+    .home-heading {
+        margin: 9rem 0px 0px 123px;
+    }
+    .nav-menu ul li a{
+        font-size: 19px;
+    }
+    .home-heading h2 {
+        font-size: 50px;
+        line-height: 63px;
+    }
+    .button .btn-1 {
+        padding: 14px 57px;
+    }
+    .button button{
+        padding: 14px 33px;
+    }
+    .about-us {
+        padding: 60px 50px;
+    }
+    .abt-img img {
+        width: 413px;
+    }
+    .abt-text p {
+        font-size: 19px;
+        width: 421px;
+    }
+    .about-skill{
+        margin-top: 31px;
+    }
+    .contact-sec {
+        padding: 20px 60px;
+    }
+    .contact-detail {
+        width: 658px;
+    }
+}
+@media screen and (max-width:991px) {
+    section {
+        padding: 20px 30px;
+    }
+    .home-heading h2 {
+        font-size: 40px;
+        line-height: 50px;
+        width: 503px;
+    } 
+    .button button {
+        padding: 10px 24px;
+    }
+    .button .btn-1 {
+        padding: 10px 49px;
+    }
+    .home-heading {
+        margin: 65px 0px 0px 123px;
+    }
+    .show-more img {
+        width: 30px;
+    }
+    .show-more p {
+        font-size: 20px;
+    }
+    .about-us {
+        padding: 28px 30px;
+    }
+    .abt-img img {
+        width: 313px;
+        height: 300px;
+    }
+    .abt-text p {
+        font-size: 17px;
+        width: 333px;
+    }
+    .abt-sec {
+        gap: 70px;
+    }
+    .skill {
+        padding: 20px 43px 80px;
+    }
+    .contact-sec{
+        background-position: center;
+    }
+    .contact-detail {
+        width: 458px;
+    }
+    .text-area{
+        padding: 20px 37px;
+        margin-top:10px;
+    }
+    .text-area textarea {
+        width: 100%
+    }
+    .msg-detail input {
+        width: 363px;
+    }
+}
+@media screen and (max-width:650px) {
+    section {
+        padding: 20px 15px;
+    }
+    .home-heading h2 {
+        font-size: 35px;
+        line-height: 46px;
+        width: 100%;
+        text-align: center;
+    }
+    .home-heading {
+        margin: 0;
+    }
+    .button .btn-1 {
+        padding: 10px 19px;
+    }
+    .abt-sec {
+        flex-direction: column-reverse;
+    }
+    .abt-text h6{
+        text-align: center;
+    }
+    .abt-text p {
+        font-size: 17px;
+        width: 100%;
+    }
+    .about-skill h4 {
+        font-size: 15px;
+    }
+    .detail {
+        padding-top: 15px;
+    }
+    .abt-img img {
+        width: 100%;
+        height: 100%;
+    }
+    .skill {
+        padding: 20px 20px 80px;
+    }
+    .contact-sec {
+        padding: 20px 15px;
+    }
+    .contact-detail {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .msg-detail input {
+        width: 100%;
+    }
+    .msg-detail {
+        gap: 20px;
+        display: grid;
+        justify-content: normal;
+    }
+    .text-area {
+        margin-top: 45px;
+        padding: 0px;
+    }
+
+    /* .nav-menu{
+        display: none;
+    } */
+     .close, .menu{
+        display:block;
+        float: right;
+    }
+    .nav-menu{
+        width: 350px;
+        height: 100vh;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        transition: .5s ease-out;
+        background-color:#ffffff;
+    } 
+    .nav-menu ul li{
+        margin-left: 0px;
+    }
+    .nav-menu.active{
+        right: -360px;
+    } 
+    .contact-detail input::placeholder{
+        font-size:13px;
+    }
+}
