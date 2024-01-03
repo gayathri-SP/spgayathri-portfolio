@@ -14,10 +14,12 @@
     font-family: "Poppins-Light";
     src: url("font/Poppins/Poppins-Light.ttf");
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 body{
    background-color: #0F103F;
@@ -73,16 +75,25 @@ section{
     padding:14px 65px;
 }
 .button button{
-    font-family: "Poppins-Regular";
+    /* font-family: "Poppins-Regular";
     font-weight: 400;
     font-size:18px;
     color: #ffffff;
-    text-transform: capitalize;
+    text-transform: capitalize; */
     padding: 14px 57px;
     margin: 40px 10px;
     border-radius:30px ;
     border: none;
     background-color: grey;
+}
+.button button a{
+    font-family: "Poppins-Regular";
+    font-weight: 400;
+    font-size:18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    text-decoration: none;
+   
 }
 .button button:hover{
     background:linear-gradient(to right, #C961DE, #2954A3);
@@ -161,8 +172,9 @@ section{
     margin-right: 15px;
 }
 .skill{
-    width: 100%;
+    width: 63%;
     padding: 20px 100px 80px;
+    margin: auto;
 }
 .skills-detail{
     padding: 0 100px;
@@ -363,4 +375,5 @@ section{
     font-size: 22px;
     color: #ffffff;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }

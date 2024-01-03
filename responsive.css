@@ -142,6 +142,7 @@
         line-height: 46px;
         width: 100%;
         text-align: center;
+        margin-top: 50px;
     }
     .home-heading {
         margin: 0;
@@ -170,6 +171,7 @@
         height: 100%;
     }
     .skill {
+        width: 100%;
         padding: 20px 20px 80px;
     }
     .contact-sec {
@@ -208,13 +210,31 @@
         transition: .5s ease-out;
         background-color:#ffffff;
     } 
+    .nav-menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        row-gap: 30px;
+        padding: 50px;
+    }
     .nav-menu ul li{
         margin-left: 0px;
+    }
+    .nav-menu ul li a{
+        color: blue;
     }
     .nav-menu.active{
         right: -360px;
     } 
     .contact-detail input::placeholder{
         font-size:13px;
+    }
+    .header {
+        min-height: 46vh;
+    }
+    .contact-sec {
+        width: 100%;
+        min-height: 43vh;
     }
 }

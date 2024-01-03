@@ -1,14 +1,15 @@
 $(jQuery).ready(function () {
-    $(".nav-menu").click(function () {
-        $('.menu').removeClass('active');
+    $(".menu").click(function () {
+        $('.nav-menu').removeClass('active');
     });
     $(".close").click(function () {
-        $('.menu').addClass('active');
+        $('.nav-menu').addClass('active');
     });
 
-    $('#first').hide();
+    $('#Email-add').hide();
     $('#first').hide();
     $('#subject').hide();
+
 
     var firstname = "";
     $("#first-name").on("focusin", function () {
@@ -24,9 +25,9 @@ $(jQuery).ready(function () {
         }
     });
     $("#email").on("focusin", function () {
-        $('#first').hide();
+        $('#Email-add').hide();
         $("#email").on("focusout", function () {
-            $('#Email-addt').show();
+            $('#Email-add').show();
         });
     });
     $("#email").on("keyup", function () {
