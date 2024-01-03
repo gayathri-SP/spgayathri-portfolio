@@ -135,7 +135,7 @@
 }
 @media screen and (max-width:650px) {
     section {
-        padding: 20px 15px;
+        padding: 20px 15px 30px;
     }
     .home-heading h2 {
         font-size: 35px;
